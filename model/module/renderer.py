@@ -1,6 +1,8 @@
 from cgitb import reset
 import torch
 import torch.nn.functional as F
+# import sys
+# sys.path.append('/root/self-corr-pose/third-party/softras')
 import soft_renderer as sr
 
 from model.util.loss_utils import render, pinhole_cam

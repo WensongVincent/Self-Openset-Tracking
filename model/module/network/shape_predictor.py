@@ -1,7 +1,8 @@
 from absl import flags
 import torch
 import torch.nn as nn
-
+import sys, os
+sys.path.append('/self-corr-pose/third-party/nerf')
 from nerf import models, run_network
 from nerf.nerf_helpers import positional_encoding
 
