@@ -2,12 +2,12 @@
 
 ![method.jpg](assets/method.jpg)
 
-This repository is the official implementation for the paper:
+<!-- This repository is the official implementation for the paper:
 
 > Self-Supervised Geometric Correspondence for Category-Level 6D Object Pose Estimation in the Wild  
 > [Kaifeng Zhang](https://kywind.github.io/), [Yang Fu](https://oasisyang.github.io/), [Shubhankar Borse](https://scholar.google.com/citations?user=ZsgWCyMAAAAJ&hl=en), [Hong Cai](https://scholar.google.com/citations?user=9y3Kd3cAAAAJ&hl=en), [Fatih Porikli](https://scholar.google.com/citations?user=VpB8NZ8AAAAJ&hl=en]), [Xiaolong Wang](https://xiaolonw.github.io)  
 > ICLR, 2023  
-> [Project Page](https://kywind.github.io/self-pose) / [ArXiv](https://arxiv.org/abs/2210.07199)  
+> [Project Page](https://kywind.github.io/self-pose) / [ArXiv](https://arxiv.org/abs/2210.07199)   -->
 
 ## Progress
 
@@ -64,7 +64,7 @@ We provide the pretrained models on Wild6D dataset containing all 5 categories.
 
 To use, download the checkpoints in this [link](https://drive.google.com/drive/folders/1m9JwibSun0GTHRcfHoVLBLmPc3DWqy0Q?usp=share_link). Indicate the checkpoint path with the ```--model_path``` argument in ```scripts/predict.sh```. 
 
-## Citation
+<!-- ## Citation
 
 ```bibtex
 @article{zhang2022self,
@@ -72,12 +72,12 @@ To use, download the checkpoints in this [link](https://drive.google.com/drive/f
   author={Zhang, Kaifeng and Fu, Yang and Borse, Shubhankar and Cai, Hong and Porikli, Fatih and Wang, Xiaolong},
   journal={arXiv preprint arXiv:2210.07199},
   year={2022}
-}
+} -->
 ```
 
-## Acknowledgement
+<!-- ## Acknowledgement
 
 The skeleton of our code is borrowed from [ViSER](https://github.com/gengshan-y/viser-release/). Thank you for the great work.
-Also thanks to the following external repos: [SoftRas](https://github.com/ShichenLiu/SoftRas), [Zero-Shot-Pose](https://github.com/applied-ai-lab/zero-shot-pose/), [U-CMR](https://github.com/shubham-goel/ucmr), [PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity), [Objectron](https://github.com/google-research-datasets/Objectron).
+Also thanks to the following external repos: [SoftRas](https://github.com/ShichenLiu/SoftRas), [Zero-Shot-Pose](https://github.com/applied-ai-lab/zero-shot-pose/), [U-CMR](https://github.com/shubham-goel/ucmr), [PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity), [Objectron](https://github.com/google-research-datasets/Objectron). -->
 
 
