@@ -1,6 +1,6 @@
-# Self-Supervised Geometric Correspondence for Category-Level 6D Object Pose Estimation in the Wild
+# Zero-shot Self-Supervised 6D Object Pose Estimation in Category-Level
 
-![method.jpg](assets/method.jpg)
+<!-- ![method.jpg](assets/method.jpg) -->
 
 <!-- This repository is the official implementation for the paper:
 
