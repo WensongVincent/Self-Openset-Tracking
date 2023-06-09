@@ -73,3 +73,7 @@ env.bak/
 venv.bak/
 .python-version
 
+# additions
+checkpoints/
+laptop/
+test_set/

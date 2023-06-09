@@ -75,7 +75,7 @@ class Wild6DTestDataset(Dataset):
             self.masklist.append(mask_list)
             self.depthlist.append(depth_list)
 
-            meta_path = os.path.join(opts.test_dataset_path, obj_list[obj_index], seq_list[seq_index], 'metadata')
+            meta_path = os.path.join(opts.test_dataset_path, obj_list[obj_index], seq_list[seq_index],'metadata')
             metadata = json.load(open(meta_path, 'rb'))
 
             K = np.array(metadata['K']).reshape(3, 3).T if 'K' in metadata.keys() else None # first x, then y

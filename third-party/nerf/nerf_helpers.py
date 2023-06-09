@@ -26,7 +26,7 @@ def get_minibatches(inputs: torch.Tensor, chunksize: Optional[int] = 1024 * 8):
 
 def meshgrid_xy(
     tensor1: torch.Tensor, tensor2: torch.Tensor
-) -> (torch.Tensor, torch.Tensor):
+):
     """Mimick np.meshgrid(..., indexing="xy") in pytorch. torch.meshgrid only allows "ij" indexing.
     (If you're unsure what this means, safely skip trying to understand this, and run a tiny example!)
 

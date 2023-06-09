@@ -5,7 +5,7 @@
 --test_dataset_path=/data/yangfu2/data/Wild6D/test_set/laptop/
 --test_list=config/laptop_wild6d/test_list_all.txt
 --total_iters=20000
---batch_size=8
+--batch_size=4
 --repeat=4
 --learning_rate=0.0001
 --depth_offset=5

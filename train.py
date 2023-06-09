@@ -24,7 +24,7 @@ from model.trainer import Trainer
 import config
 
 opts = flags.FLAGS
-    
+
 def main(_):
     if opts.local_rank != -1:
         torch.cuda.set_device(opts.local_rank)
